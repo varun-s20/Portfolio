@@ -8,11 +8,10 @@ import {
   MotionValue,
 } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
 
 export const HeroParallax = ({ products }) => {
   const firstRow = products.slice(0, 5);
-  const secondRow = products.slice(5, 9);
+  const secondRow = products.slice(4, 9);
   const ref = React.useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -42,13 +41,13 @@ export const HeroParallax = ({ products }) => {
     springConfig
   );
   const translateY = useSpring(
-    useTransform(scrollYProgress, [0, 0.2], [-700, 500]),
+    useTransform(scrollYProgress, [0, 0.2], [-700, 100]),
     springConfig
   );
   return (
     <div
       ref={ref}
-      className="py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="py-40 antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d] overflow-x-hidden"
     >
       <Header />
       <motion.div

@@ -31,8 +31,9 @@ export const products = [
     title: "TDOT Immigration",
     thumbnail: "/heroSection/TdotBlog.webp",
   },
+
   {
-    title: "theBlankPage",
+    title: "BlankPage",
     thumbnail: "/heroSection/BlankPage.webp",
   },
   {
