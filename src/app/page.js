@@ -1,7 +1,7 @@
-import { WobbleCardDemo } from "./components/about/page";
-import { TypewriterEffectSmoothDemo } from "./components/coming/page";
-import { HeroParallaxDemo } from "./components/home/page";
-import { LayoutGridDemo } from "./components/projects/page";
+import { WobbleCardDemo } from "./components/about/About";
+import { TypewriterEffectSmoothDemo } from "./components/coming/Coming";
+import { HeroParallaxDemo } from "./components/home/Home";
+import { LayoutGridDemo } from "./components/projects/Projects";
 import { LampDemo } from "./components/ui/Lamp";
 
 export default function Home() {
