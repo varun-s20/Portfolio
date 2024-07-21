@@ -19,7 +19,10 @@ export function WobbleCardDemo() {
           </h2>
           <p className="mt-4 text-left  text-base/6 text-neutral-200">
             Final-year B. Tech student in Computer Engineering at MPSTME, NMIMS,
-            Mumbai. Consistently ranked among the top performers in the class.
+            Mumbai.<br/> <strong> CGPA</strong> - 3.54/4
+          </p>
+          <p className="mt-4 text-left  text-base/6 text-neutral-200">
+            High School at Delhi Public School.<br/> <strong> XII</strong> - 94.8%
           </p>
         </div>
         <Image
