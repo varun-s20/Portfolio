@@ -8,13 +8,13 @@ export function LampDemo() {
     <LampContainer>
       <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, y: -20 }}
         transition={{
           delay: 0.3,
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className=" bg-gradient-to-br from-slate-300 to-white py-4 bg-clip-text text-center text-4xl  tracking-tight text-transparent md:text-7xl font-bold"
+        className=" bg-gradient-to-br from-slate-300 to-white py-4 bg-clip-text text-center text-5xl  tracking-tight text-transparent md:text-7xl font-bold"
       >
         Explore My Journey<br /> & Innovative Projects!
       </motion.h1>

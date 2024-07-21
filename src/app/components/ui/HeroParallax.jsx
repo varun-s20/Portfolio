@@ -8,6 +8,10 @@ import {
   MotionValue,
 } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import { IoIosMail } from "react-icons/io";
 
 export const HeroParallax = ({ products }) => {
   const firstRow = products.slice(0, 5);
@@ -77,6 +81,35 @@ export const HeroParallax = ({ products }) => {
           ))}
         </motion.div>
       </motion.div>
+      <p className="max-w-2xl text-lg md:text-2xl mt-4 text-neutral-200 flex space-x-4 absolute top-8 right-10">
+        <Link
+          href="https://github.com/varun-s20"
+          target="_blank"
+          className="flex items-center gap-2 py-2"
+        >
+          <FaGithub />
+        </Link>
+        <Link
+          href="https://www.linkedin.com/in/varun-singh-802816213/"
+          target="_blank"
+          className="flex items-center gap-2 py-2"
+        >
+          <FaLinkedin />
+        </Link>
+        <Link
+          href="https://leetcode.com/u/varun_s20/"
+          target="_blank"
+          className="flex items-center gap-2 py-2"
+        >
+          <SiLeetcode />
+        </Link>
+        <Link
+          href="mailto:varun17593@gmail.com"
+          className="flex items-center gap-2 py-2"
+        >
+          <IoIosMail />
+        </Link>
+      </p>
     </div>
   );
 };
