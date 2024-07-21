@@ -30,7 +30,7 @@ export function WobbleCardDemo() {
           width={300}
           height={300}
           alt="linear demo image"
-          className="absolute -right-4 md:-right-2 filter -bottom-20 md:-bottom-4 object-contain rounded-2xl"
+          className="absolute -right-4 md:-right-2 filter -bottom-24 md:-bottom-4 object-contain rounded-2xl"
         />
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 min-h-[300px]">
