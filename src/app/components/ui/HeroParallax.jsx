@@ -82,15 +82,6 @@ export const HeroParallax = ({ products }) => {
         </motion.div>
       </motion.div>
       <p className="max-w-2xl text-lg md:text-2xl mt-4 text-neutral-200 flex space-x-4 absolute top-8 right-10">
-        
-        
-       
-        <Link
-          href="mailto:varun17593@gmail.com"
-          className="flex items-center gap-2 py-2"
-        >
-          <IoIosMail />
-        </Link>
       </p>
     </div>
   );
